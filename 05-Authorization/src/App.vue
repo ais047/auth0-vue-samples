@@ -29,6 +29,7 @@
 
           <button
             class="btn btn-primary btn-margin"
+            id= "btn-login"
             v-if="!authenticated"
             @click="login()">
               Log In
@@ -89,3 +90,4 @@ export default {
   margin-top: 7px
 }
 </style>
+
